@@ -1,0 +1,16 @@
+@use "../css-sass/utils/variables";
+@use "../css-sass/components/buttons";
+@use "../css-sass/components/nav";
+@use "../css-sass/components/hero";
+@use "../css-sass/components/bento";
+@use "../css-sass/components/footer";
+@use "../css-sass/pages/inicio";
+@use "../css-sass/pages/about";
+@use "../css-sass/pages/ficha";
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

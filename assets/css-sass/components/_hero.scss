@@ -1,0 +1,117 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+  .video-wrapper {
+    position: relative;
+    z-index: 0;
+    width: 95%;
+    height: 85%;
+    border: 5px solid #F9FBFC;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+
+    @media (max-width: 768px) {
+      height: 70%;
+    }
+
+    video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .hero-content {
+      position: absolute;
+      bottom: 2rem;
+      left: 2rem;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+      h1 {
+        margin: 0;
+        font-size: 4rem;
+        font-weight: bold;
+
+        @media (max-width: 768px) {
+          font-size: 3rem;
+        }
+
+        @media (min-width: 2560px) {
+          font-size: 6rem;
+        }
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: normal;
+
+        @media (max-width: 768px) {
+          font-size: 1.5rem;
+        }
+
+        @media (min-width: 2560px) {
+          font-size: 4rem;
+        }
+      }
+
+      p {
+        font-size: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        @media (max-width: 768px) {
+          font-size: 1rem;
+        }
+
+        @media (min-width: 2560px) {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  // Botón de "Ver proyectos"
+  &_proyectos-background {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border: 0;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.07);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    gap: 1rem;
+    text-decoration: none !important;
+
+    p {
+      padding: 0.5rem;
+      margin: 0;
+      text-align: center;
+      color: black;
+    }
+
+    .arrow_down {
+      transform: rotate(90deg); // Rota desde el centro
+      padding: 0 20px;
+    }
+
+    &:hover {
+      background-color: #F3E8FF;
+    }
+
+    &:active {
+      background-color: #d3aff9;
+    }
+  }
+}

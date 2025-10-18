@@ -1,0 +1,85 @@
+.footer {
+  background-image: linear-gradient(to right, #f2e8fe, #e5ecff, #dbeffd, #d8f1f6, #dbf1ee);
+  padding: 2rem;
+
+  &_row {
+    display: flex;
+    flex-direction: row;
+
+    // Responsive
+    @media (max-width: 426px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+
+  // Logotipo
+  &_logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    h4 {
+      margin: 0;
+    }
+
+    @media (max-width: 426px) {
+      justify-content: center;
+    }
+  }
+
+  // Redes sociales
+  &_rrss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  // Navegación
+  &_navegacion {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    @media (max-width: 426px) {
+      justify-content: center;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+
+      @media (max-width: 426px) {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+// Hover y active en navegación
+.nav-item {
+  &:hover {
+    color: #9C56FF;
+  }
+
+  &:active {
+    text-decoration: underline;
+  }
+}
+
+// Copyright
+.copyright {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 0;
+
+  p {
+    margin: 0;
+  }
+}

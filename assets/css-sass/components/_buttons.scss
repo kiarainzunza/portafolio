@@ -1,0 +1,203 @@
+.portfolio_software-list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  &-button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #9C56FF;
+    border-radius: 0.5rem;
+    background-color: #F3E8FF;
+    white-space: nowrap; // evita corte de texto
+  }
+}
+
+//-------- Botón de descarga de archivos --------//
+
+.download {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  border: 0;
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.07);
+  border-radius: 1rem;
+  margin: 1rem 0;
+  text-decoration: none;
+
+  &_content {
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+
+    @media (max-width: 426px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  &_icon {
+    @media (max-width: 426px) {
+      max-height: 50%;
+      max-width: 50%;
+      padding: 1rem 0.5rem;
+    }
+  }
+
+  // Evita que se muestre la flecha en mobile
+  &_arrow {
+    @media (max-width: 426px) {
+      display: none;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  // Responsive
+  @media (max-width: 426px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+// Hover y active
+.download:hover {
+  background-color: #F3E8FF;
+}
+
+.download:active {
+  background-color: #d3aff9;
+}
+
+@media (max-width: 768px) {
+  .download:active {
+    background-color: #d3aff9;
+    border: none;
+  }
+}
+
+//-------- Botón de descarga por proyecto --------//
+
+.download-valeriana {
+  background-color: #a9cc81;
+  box-shadow: 2px 2px 2px 2px #648044;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+  border: 0;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #648044;
+  }
+}
+
+.download-huellitas {
+  background-color: hsl(27, 100%, 67%);
+  box-shadow: 2px 2px 2px 2px #fa744f;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+  border: 0;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #fa744f;
+  }
+}
+
+.download-ecostyle {
+  background-color: #536346;
+  box-shadow: 2px 2px 2px 2px #3a482e;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+  border: 0;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #3a482e;
+  }
+}
+
+.download-tranqui {
+  background-color: #834CD1;
+  box-shadow: 2px 2px 2px 2px #4e2983;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+  border: 0;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #4e2983;
+  }
+}
+
+.download-mistborn {
+  background-color: #AF3B10;
+  box-shadow: 2px 2px 2px 2px #551c07;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+  border: 0;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #551c07;
+  }
+}
+
+//------------------- Contacto -------------------//
+
+.contact_info {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+
+  &-text {
+    padding: 0 25px;
+  }
+
+  &:hover {
+    color: #9C56FF;
+  }
+
+  &:active {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 426px) {
+    flex-direction: column;
+
+    img {
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+.contact_rrss {
+  @media (max-width: 426px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

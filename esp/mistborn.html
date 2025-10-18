@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--metadatos-->
+    <meta name="keywords" content="diseño grafico, diseño web, ux, ui, graphic design, portfolio">
+    <meta name="description" content="Proyecto de diseño de HUD para un videojuego ficticio basado en el libro Mistborn de Brandon Sanderson.">
+    <meta name="author" content="Kiara Inzunza">
+
+    <title>Kiara Inzunza | Portafolio</title>
+    <!--Favicon página-->
+    <link rel="icon" href="../assets/img/favicon.png" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="../assets/css-sass/main.css">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/946b9e84bc.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="page-custom-navbar">
+
+    <!-- Navbar -->
+    <nav class="container-fluid navbar navbar-expand-lg" id="navbar">
+        <!-- Lado izquierdo -->
+        <div class="nav-left">
+            <h3>Kiara Inzunza</h3>
+        </div>
+
+        <!-- Botón hamburguesa (visible solo en <576px) -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú colapsable -->
+        <div class="nav-right collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">
+                        Inicio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#portfolio">
+                        Proyectos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="conoceme.html">
+                        Acerca de
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#contact">
+                        Contacto
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://www.behance.net/kiarainzunza">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="mailto:kiaraimdg@gmail.com">
+                        <i class="fa-solid fa-envelope nav-link"></i>
+                    </a>
+                </li>
+                <!--Selector de idiomas (rechazado)
+                <li class="nav-item language">
+                    <a class="active" href="#">Esp</a>
+                    <a class="inactive" href="../eng/ecostyle.html">Eng</a>
+                </li>-->
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!--hero-->
+        <div class="ficha_hero">
+            <div class="ficha_video">
+                <video autoplay muted playsinline>
+                    <source src="../assets/video/mistborn-portada_interna.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <section class="container ficha_titulo">
+
+            <div aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Mistborn</li>
+                </ol>
+            </div>
+
+            <h2 class="ficha_titulo-subtitulo">Videogame UI</h2>
+            <h1>Mistborn HUD</h1>
+            <p>Proyecto de diseño de HUD para un videojuego ficticio basado en el libro Mistborn de Brandon Sanderson.
+            </p>
+
+            <div class="ficha_titulo-rol">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <h3>Rol</h3>
+                        <p>Diseñador Gráfico</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <h3>Herramientas</h3>
+                        <ul class="ficha_titulo-lista">
+                            <li>Figma</li>
+                            <li>Illustrator</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <h3>Tiempo</h3>
+                        <p>Abril 2025 - Junio 2025</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+        </section>
+
+        <!--Desarrollo del proyecto-->
+        <section class="container ficha_proceso">
+
+            <!--Descripción-->
+            <div class="ficha_proceso">
+                <div class="row">
+                    <div class="col-lg-4 ficha_proceso-tema">
+                        <h2>Descripción general</h2>
+                    </div>
+                    <div class="col-lg-8 ficha_proceso-contenido">
+                        <p>Cree esta interfaz de videojuego pensando en practicar mis habilidades de diseño en un medio
+                            que no habia diseñado anteriormente, además de repasar las herramientas de autolayout y
+                            componentes de figma.
+                        </p>
+                        <p>Consideré el estilo de juego como uno de acción con uso de poderes, que fuera reflejado
+                            dentro de la propia interfaz y fuera clara de comprender.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Cierre descripción-->
+
+            <hr>
+
+            <!--Mapa navegacion-->
+            <div class="ficha_proceso">
+                <div class="row">
+                    <div class="col-lg-4 ficha_proceso-tema">
+                        <h2>Mapa de navegación</h1>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>Para comenzar el diseño, cree un mapa de navegación basandome en el flujo entre cada pantalla de un videojuego de este mismo estilo, considerando las pantallas de inicio, configuración, cargar partida e inventario.</p>
+                    </div>
+                </div>
+
+                <!--Fotos Mapa-->
+                <div class="ficha_proceso-fotos">
+                    <div class="row">
+                        <a href="../assets/img/mistborn/user-flow.png" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="col-sm-12">
+                            <img src="../assets/img/mistborn/user-flow.png" class="img-fluid"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Cierre Mapa navegacion-->
+
+<hr>
+
+            <!--Referentes-->
+            <div class="ficha_proceso wireframe">
+                <div class="row">
+                    <div class="col-lg-4 ficha_proceso-tema">
+                        <h2>Referentes</h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>Considerando el mapa de navegación, realicé una búsqueda de referentes que me permitiera tener una guia visual de cual es el estándar de cada una de las pantallas.</p>
+                    </div>
+                </div>
+
+                <!--imagen del referentes-->
+                <img src="../assets/img/mistborn/moodboard.png" alt="">
+            </div>
+            <!--Cierre Referentes-->
+
+
+            <hr>
+
+            <!--Guia de estilo-->
+            <div class="ficha_proceso wireframe">
+                <div class="row">
+                    <div class="col-lg-4 ficha_proceso-tema">
+                        <h2>Guia de estilo</h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>Para generar una guia de estilo, tomé tipografías que fueran serif y tonos café basandome en la atmosfera del libro en que se basa.
+                        </p>
+                        <p>En cuanto a los iconos, tomé la simbología del propio libro para los poderes y los botones y ubicación estándar de la mayoría de juegos con interacciones similares.</p>
+                    </div>
+                </div>
+
+                <!--imagen de Guia de estilo-->
+                <img src="../assets/img/mistborn/style-guide.png"
+                    alt="Ficha detallando las tipografías, iconos, botones, ilustraciones, logotipo y paleta cromática">
+            </div>
+            <!--Cierre guia de estilo-->
+
+
+            <!--Wireframe-->
+            <div class="ficha_proceso">
+                <div class="row">
+                    <!--Info titulo + boton-->
+                    <div class="col-lg-4 ficha_proceso-tema">
+                        <h2>Wireframes</h2>
+                        <a class="download-mistborn"
+                            href="https://www.figma.com/design/wMbKjVucQdSAQ51jNwDxtt/Mistborn-UI?node-id=168-7&t=gOMR3JAYzmB4oBTU-1"
+                            target="_blank">Ver Wireframes en Figma</a>
+                    </div>
+                    <!--Descripcion-->
+                    <div class="col-lg-8">
+                        <p>Antes de comenzar el mockup, diseñé un bosquejo de las 6 pantallas mas importandes dentro de la navegación, siendo estas la de inicio, configuración, HUD, rueda de poderes e inventario.</p>
+                    </div>
+                </div>
+
+                <!--Carrusel de fotos-->
+                <div class="carrusel">
+                    <div class="row">
+                        <!--Menu-->
+                        <a href="../assets/img/mistborn/wireframe_menu.jpg" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="carrusel_foto col-lg-4 col-md-4 col-sm-6">
+                            <img src="../assets/img/mistborn/wireframe_menu.jpg" class="img-fluid"
+                                alt="Boceto de la pantalla de título.">
+                        </a>
+                        <!--Main Menu-->
+                        <a href="../assets/img/mistborn/wireframe_main-menu.jpg" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="carrusel_foto col-lg-4 col-md-4 col-sm-6">
+                            <img src="../assets/img/mistborn/wireframe_main-menu.jpg" class="img-fluid"
+                                alt="Boceto de la pantalla de inicio principal.">
+                        </a>
+                        <!--Configuration-->
+                        <a href="../assets/img/mistborn/wireframe_configuration.jpg" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="carrusel_foto col-lg-4 col-md-4 col-sm-6">
+                            <img src="../assets/img/mistborn/wireframe_configuration.jpg" class="img-fluid"
+                                alt="Boceto de la pantalla de configuración">
+                        </a>
+                        <!--hud-->
+                        <a href="../assets/img/mistborn/wireframe_hud-normal.jpg" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="carrusel_foto col-lg-4 col-md-4 col-sm-6">
+                            <img src="../assets/img/mistborn/wireframe_hud-normal.jpg" class="img-fluid"
+                                alt="Boceto de la pantalla del hud presente en el juego.">
+                        </a>
+                        <!--Rueda de poderes-->
+                        <a href="../assets/img/mistborn/wireframe_allomance-wheel.jpg" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="carrusel_foto col-lg-4 col-md-4 col-sm-6">
+                            <img src="../assets/img/mistborn/wireframe_allomance-wheel.jpg" class="img-fluid"
+                                alt="Boceto de la pantalla de la rueda de poderes (alomancia)">
+                        </a>
+                        <!--Inventario-->
+                        <a href="../assets/img/mistborn/wireframe_inventory.jpg" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="carrusel_foto col-lg-4 col-md-4 col-sm-6">
+                            <img src="../assets/img/mistborn/wireframe_inventory.jpg" class="img-fluid"
+                                alt="Boceto de la pantalla del inventario.">
+                        </a>
+                    </div>
+                </div>
+
+
+                <hr>
+
+                <!--Nuevo nuevo mockup-->
+                <div class="ficha_proceso">
+                    <div class="row">
+                        <!--Info titulo + boton-->
+                        <div class="col-lg-4 ficha_proceso-tema">
+                            <h2>Mockups</h2>
+                            <a class="download-mistborn"
+                                href="https://www.figma.com/design/wMbKjVucQdSAQ51jNwDxtt/Mistborn-UI?node-id=0-1&t=gOMR3JAYzmB4oBTU-1"
+                                target="_blank">Ver Mockups en Figma</a>
+                        </div>
+                        <!--Descripcion-->
+                        <div class="col-lg-8">
+                            <p>Apliqué los códigos gráficos y rearmé cada pantalla añadiendo el contenido correspondiente por cada página.</p>
+                            <p>El cambio más significativo que apliqué fue el fondo, el cual consiste en llamas, haciendo referencia al mundo extremadamente caluroso en que se desarrolla el libro.</p>
+                            <p>Los render de base para la sección de HUD los armé tomando assets gratuitos, pero solo dejandolos como base.</p>
+                        </div>
+                    </div>
+
+                    <!--Carrusel de fotos-->
+                    <div class="carrusel">
+                        <div class="row">
+                            <h4 class="py-4">Menu principal</h4>
+                            <!--Post 1-->
+                            <a href="../assets/img/mistborn/mockup_menu.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg col-md-4 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_menu.jpg" class="img-fluid" alt="Pantalla de titulo">
+                            </a>
+                            <!--Post 2-->
+                            <a href="../assets/img/mistborn/mockup_main-menu.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg col-md-4 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_main-menu.jpg" class="img-fluid" alt="Pantalla de inicio, con las opciones de continuar, cargar juego, nuevo juego y opciones.">
+                            </a>
+                            <!--Post 3-->
+                            <a href="../assets/img/mistborn/mockup_select-difficulty.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg col-md-4 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_select-difficulty.jpg" class="img-fluid" alt="Pantalla de seleccion de dificultad.">
+                            </a>
+                            <!--Post 4-->
+                            <a href="../assets/img/mistborn/mockup_select-save.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg col-md-4 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_select-save.jpg" class="img-fluid" alt="Pantalla de cargar partida.">
+                            </a>
+                            <!--Post 5-->
+                            <a href="../assets/img/mistborn/mockup_loading-screen.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg col-md-4 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_loading-screen.jpg" class="img-fluid" alt="Pantalla de cargando.">
+                            </a>
+                        </div>
+
+
+                        <!--Sección de Configuración-->
+                        <div class="row">
+
+                            <h4 class="py-4">Configuración</h4>
+                            <!--Post 1-->
+                            <a href="../assets/img/mistborn/mockup_configuration.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-3 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_configuration.jpg" class="img-fluid" alt="Pantalla de opciones.">
+                            </a>
+                            <!--Post 2-->
+                            <a href="../assets/img/mistborn/mockup_configuration-gameplay.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-3 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_configuration-gameplay.jpg" class="img-fluid"
+                                    alt="Pantalla de opciones con la pestaña de gameplay seleccionada.">
+                            </a>
+                            <!--Post 3-->
+                            <a href="../assets/img/mistborn/mockup_configuration-graphics.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-3 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_configuration-graphics.jpg" class="img-fluid"
+                                    alt="Pantalla de opciones con la pestaña de graficos seleccionada.">
+                            </a>
+                            <!--Post 4-->
+                            <a href="../assets/img/mistborn/mockup_configuration-audio.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-3 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_configuration-audio.jpg" class="img-fluid"
+                                    alt="Pantalla de opciones con la pestaña de audio seleccionada.">
+                            </a>
+                            <!--Post 5-->
+                            <a href="../assets/img/mistborn/mockup_configuration-accesibility.jpg"
+                                data-toggle="lightbox" data-gallery="example-gallery"
+                                class="carrusel_foto col-lg-3 col-md-3 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_configuration-accesibility.jpg"
+                                    class="img-fluid" alt="Pantalla de opciones con la pestaña de accesibilidad seleccionada.">
+                            </a>
+                            <!--Post 6-->
+                            <a href="../assets/img/mistborn/mockup_configuration-controls.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-3 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_configuration-controls.jpg" class="img-fluid"
+                                    alt="Pantalla de opciones con la pestaña de controles seleccionada.">
+                            </a>
+                            <!--Post 7-->
+                            <a href="../assets/img/mistborn/mockup_configuration-languages.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-3 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_configuration-languages.jpg" class="img-fluid"
+                                    alt="Pantalla de opciones con la pestaña de idioma seleccionada.">
+                            </a>
+                        </div>
+
+                        <!--Sección de HUD-->
+                        <div class="row">
+
+                            <h4 class="py-4">HUD en el juego</h4>
+                            <!--Post 1-->
+                            <a href="../assets/img/mistborn/mockup_hud_normal.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-6 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_hud_normal.jpg" class="img-fluid" alt="Pantalla del hud activo del videojuego, mostrando la salud, resistencia, uso del poder, mapa y mision activa.">
+                            </a>
+                            <!--Post 2-->
+                            <a href="../assets/img/mistborn/mockup_hud_completed.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-6 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_hud_completed.jpg" class="img-fluid" alt="Pantalla del hud activo del videojuego, mostrando la salud, resistencia, uso del poder, mapa y mision completada.">
+                            </a>
+                            <!--Post 3-->
+                            <a href="../assets/img/mistborn/mockup_hud_pause.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-6 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_hud_pause.jpg" class="img-fluid" alt="Menu de pausa">
+                            </a>
+                            <!--Post 4-->
+                            <a href="../assets/img/mistborn/mockup_hud_alomantic-wheel.jpg" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-6 col-sm-6">
+                                <img src="../assets/img/mistborn/mockup_hud_alomantic-wheel.jpg" class="img-fluid"
+                                    alt="Menú de seleccion de poder.">
+                            </a>
+                        </div>
+
+                        <!--Inventario-->
+                        <div class="carrusel">
+                            <div class="row">
+                                <h4 class="py-4">Inventario</h4>
+                                <!--Post 1-->
+                                <a href="../assets/img/mistborn/mockup_inventory.jpg" data-toggle="lightbox"
+                                    data-gallery="example-gallery" class="carrusel_foto col-lg col-md-4 col-sm-6">
+                                    <img src="../assets/img/mistborn/mockup_inventory.jpg" class="img-fluid" alt="Pantalla de inventario.">
+                                </a>
+                                <!--Post 2-->
+                                <a href="../assets/img/mistborn/mockup_inventory-skill-tree.jpg" data-toggle="lightbox"
+                                    data-gallery="example-gallery" class="carrusel_foto col-lg col-md-4 col-sm-6">
+                                    <img src="../assets/img/mistborn/mockup_inventory-skill-tree.jpg" class="img-fluid"
+                                        alt="Pantalla de habilidades.">
+                                </a>
+                                <!--Post 3-->
+                                <a href="../assets/img/mistborn/mockup_inventory-missions.jpg" data-toggle="lightbox"
+                                    data-gallery="example-gallery" class="carrusel_foto col-lg col-md-4 col-sm-6">
+                                    <img src="../assets/img/mistborn/mockup_inventory-missions.jpg" class="img-fluid"
+                                        alt="Pantalla de misiones.">
+                                </a>
+                                <!--Post 4-->
+                                <a href="../assets/img/mistborn/mockup_inventory-maps.jpg" data-toggle="lightbox"
+                                    data-gallery="example-gallery" class="carrusel_foto col-lg col-md-4 col-sm-6">
+                                    <img src="../assets/img/mistborn/mockup_inventory-maps.jpg" class="img-fluid"
+                                        alt="Pantalla de mapa.">
+                                </a>
+                                <!--Post 5-->
+                                <a href="../assets/img/mistborn/mockup_codex.jpg" data-toggle="lightbox"
+                                    data-gallery="example-gallery" class="carrusel_foto col-lg col-md-4 col-sm-6">
+                                    <img src="../assets/img/mistborn/mockup_codex.jpg" class="img-fluid" alt="Pantalla de codex.">
+                                </a>
+                            </div>
+                            <!--Cierre de carrusel-->
+                        </div>
+
+                        <hr>
+
+                        <!--Prototipo interactivo-->
+                        <div class="prototype container">
+                            <iframe class="prototype-style" style="border: 1px solid rgba(0, 0, 0, 0.1);"
+                                src="https://embed.figma.com/proto/wMbKjVucQdSAQ51jNwDxtt/Mistborn-UI?page-id=230%3A97&node-id=276-715&viewport=287%2C181%2C0.06&scaling=scale-down&content-scaling=fixed&starting-point-node-id=276%3A715&embed-host=share"
+                                allowfullscreen></iframe>
+                        </div>
+
+                        <hr>
+
+                        <!--Ver proyectos anterior y siguiente-->
+                        <div class="container seleccion-proyecto py-4">
+                            <div>
+                                <img class="selector-proyecto_arrow" src="../assets/svg/chevron-left.svg" alt="">
+                                <a href="tranqui.html">Proyecto anterior</a>
+                            </div>
+
+                            <div>
+                                <a href="fortuita.html">Proyecto siguiente</a>
+                                <img class="selector-proyecto_arrow" src="../assets/svg/chevron-right.svg" alt="">
+                            </div>
+                        </div>
+
+        </section>
+
+
+        <!--Flecha hacia arriba-->
+        <div class="arrow-up">
+            <a href="#navbar"><img src="../assets/svg/arrow-up-short.svg" alt=""></a>
+        </div>
+
+    </main>
+
+    <!--Footer-->
+    <footer class="footer"><!--da color-->
+        <div class="container"> <!--marca padding-->
+            <div class="row footer_row"> <!--fila-->
+                <div class="footer_logo col">
+                    <h4>Kiara Inzunza | Portafolio</h4>
+                </div>
+                <div class="footer_rrss col">
+                    <a href="mailto:kiaraimdg@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/kiarainzunza/" target="_blank"> <i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.behance.net/kiarainzunza" target="_blank"> <i
+                            class="fa-brands fa-behance"></i></a>
+                </div>
+                <div class="footer_navegacion col">
+                    <ul>
+
+                        <li><a class="nav-item" href="../index.html#inicio">Inicio</a></li>
+                        <li><a class="nav-item" href="../index.html#portfolio">Proyectos</a></li>
+                        <li><a class="nav-item" href="../esp/conoceme.html">Acerca de</a></li>
+                        <li><a class="nav-item" href="../index.html#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 | Sitio web realizado con HTML5 y CSS3</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Script JS-->
+    <script src="../assets/js/interacciones.js"></script>
+    <!-- Bootstrap 5 JS (con Popper incluido) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Lightbox-->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
+</body>
+
+</html>

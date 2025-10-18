@@ -1,0 +1,210 @@
+// Hero del sitio
+
+.ficha_hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 54vh;
+
+  @media (min-width: 2560px) {
+    height: 20vh;
+  }
+
+  // Edita el contenedor de video
+  .ficha_video {
+    // Añadido para centrar el contenido usando flexbox
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    width: 95%;
+    height: 100%;
+    border: 5px solid #F9FBFC;
+    border-radius: 2rem;
+    margin: 0.5rem 0;
+
+    // Edita el video
+    video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+}
+
+.carrusel_video{
+  video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+}
+
+// Título
+.ficha_titulo {
+  padding: 1rem 0;
+
+  .breadcrumb-item a {
+    color: #9C56FF;
+  }
+
+  &-subtitulo {
+    font-size: 20px;
+  }
+
+  &-rol {
+    padding: 0.5rem 0;
+  }
+
+  img {
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  // Lista de cada elemento
+  &-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    li {
+      list-style: circle;
+      font-family: sora;
+    }
+  }
+}
+
+// Sección Proceso
+.ficha_proceso {
+  padding: 1rem 0;
+
+  // estructura titulo + botón
+  &-tema {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @media (max-width: 992px) {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  // Imagen wireframe y mockup
+  .wireframe img,
+  .mockup img {
+    max-width: 100%;
+  }
+}
+
+.ficha_proceso-fotos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.5rem;
+
+  img {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    border: 0;
+    border-radius: 1rem;
+  }
+}
+
+// Carrusel
+.carrusel {
+  .carrusel_foto {
+    padding: 0.5rem;
+
+    img {
+      height: 300px;
+      width: 100%;
+      object-fit: cover;
+      object-position: top;
+      display: block;
+    }
+  }
+
+  .carrusel_foto-100 {
+    padding: 0.5rem;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: top;
+      display: block;
+    }
+  }
+}
+
+//PCfactory
+.pcfactory{
+  background: linear-gradient(180deg,rgba(249, 251, 252, 1) 0%, rgba(169, 238, 197, 1) 50%, rgba(249, 251, 252, 1) 100%);
+}
+
+//frutillita
+.frutillita{
+  background: linear-gradient(180deg,rgba(249, 251, 252, 1) 0%, rgba(238, 169, 198, 1) 50%, rgba(249, 251, 252, 1) 100%);
+}
+//beanywood
+.beanywood{
+  background: linear-gradient(180deg,rgba(249, 251, 252, 1) 0%, rgba(238, 230, 169, 1) 50%, rgba(249, 251, 252, 1) 100%);
+}
+
+
+// Prototipo interactivo
+.prototype {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 0;
+
+  &-style {
+    width: 100%;
+    height: 600px;
+  }
+}
+
+// Selector de proyectos
+.seleccion-proyecto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      color: #9C56FF;
+      font-weight: 500;
+    }
+  }
+}
+
+// Icons de cambio de página
+.selector-proyecto_arrow {
+  width: 20px !important;
+}
+
+// Arrow up
+.arrow-up {
+  img {
+    width: 60px;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    opacity: 50%;
+
+    &:hover {
+      opacity: 100%;
+    }
+  }
+}

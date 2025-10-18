@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--metadatos-->
+    <meta name="keywords" content="diseño grafico, diseño web, ux, ui, graphic design, portfolio">
+    <meta name="description" content="Hola! Soy Kiara Inzunza, diseñadora gráfica con mención en Interfaces e interacciones, con un diplomado en Desarrollo web y graduada de Duoc UC Viña del mar, residiendo en Quilpué, Chile.">
+    <meta name="author" content="Kiara Inzunza">
+
+    <title>Kiara Inzunza | Portafolio</title>
+    <!--Favicon página-->
+    <link rel="icon" href="../assets/img/favicon.png" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="../assets/css-sass/main.css">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/946b9e84bc.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="container-fluid navbar navbar-expand-lg" id="navbar">
+        <!-- Lado izquierdo -->
+        <div class="nav-left">
+            <h3>Kiara Inzunza</h3>
+        </div>
+
+        <!-- Botón hamburguesa (visible solo en <576px) -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú colapsable -->
+        <div class="nav-right collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">
+                        Inicio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#portfolio">
+                        Proyectos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Acerca de
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#contact">
+                        Contacto
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://www.behance.net/kiarainzunza">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="mailto:kiaraimdg@gmail.com">
+                        <i class="fa-solid fa-envelope nav-link"></i>
+                    </a>
+                </li>
+                <li class="nav-item language">
+                    <a class="active" href="#">Esp</a>
+                    <a class="inactive" href="../eng/about.html">Eng</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <!--hero-->
+
+        <section class="about">
+            <div class="about_video">
+                <video autoplay loop muted playsinline>
+                    <source src="../assets/video/background-ondas.mp4" type="video/mp4">
+                </video>
+                <div class="about_title">
+                    <h1>Acerca de mi</h1>
+                </div>
+            </div>
+        </section>
+
+        <!--Acerca de-->
+
+        <div class="presentacion container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <!--Icono nuevo-->
+                    <div class="portfolio_icon-wrapper">
+                        <img class="portfolio_icon-perfil img-fluid default" src="../assets/img/icon-perfil.png"
+                            alt="Caricatura de mi Foto de perfil">
+                        <img class="portfolio_icon-perfil img-fluid hover" src="../assets/img/icon-perfil-real.png"
+                            alt="Foto de perfil real">
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9">
+
+                    <p>Hola! Soy Kiara Inzunza, diseñadora gráfica con mención en Interfaces e interacciones, con un
+                        diplomado en Desarrollo web y graduada de Duoc UC Viña del mar, residiendo en Quilpué,
+                        Chile.</p>
+                    <p>Mientras estuve trabajando en Lado Norte, diseñé sitios web basados en estudio del usuario,
+                        buscando mejorar la usabilidad y accesibilidad, para ser aplicados en WordPress, además de
+                        crear post para redes sociales y banners.</p>
+                    <p>Busco un rol como diseñadora gráfica UX UI remoto, donde pueda seguir ampliando mis
+                        conocimientos en la materia y aprendiendo de áreas relacionadas al diseño de sitios web y
+                        aplicaciones.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="pdf container">
+            <div class="pdf-align">
+                <a href="../assets/pdf/cv_kiara-inzunza.pdf" target="_blank" class="download">
+                    <img class="download_icon" src="../assets/svg/icon_cv.svg" alt="">
+                    <div class="download_content">
+                        <h3>Descargar curriculum</h3>
+                        <p class="download_content-p">CV con la información acerca de mi, estudios y
+                            experiencia
+                            laboral.</p>
+                    </div>
+                    <img class="download_arrow" src="../assets/svg/icon_arrow.svg" alt="">
+                </a>
+
+                <a href="../assets/pdf/esp_portafolio_kiara-inzunza.pdf" target="_blank" class="download">
+                    <img class="download_icon" src="../assets/svg/icon_portfolio.svg" alt="">
+                    <div class="download_content">
+                        <h3>Descargar Portafolio</h3>
+                        <p class="download_content-p">Resumen de los proyectos con link a su explicación
+                            detallada.</p>
+                    </div>
+                    <img class="download_arrow" src="../assets/svg/icon_arrow.svg" alt="">
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!--Footer-->
+    <footer class="footer"><!--da color-->
+        <div class="container"> <!--marca padding-->
+            <div class="row footer_row"> <!--fila-->
+                <div class="footer_logo col">
+                    <h4>Kiara Inzunza | Portafolio</h4>
+                </div>
+                <div class="footer_rrss col">
+                    <a href="mailto:kiaraimdg@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/kiarainzunza/" target="_blank"> <i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.behance.net/kiarainzunza" target="_blank"> <i
+                            class="fa-brands fa-behance"></i></a>
+                </div>
+                <div class="footer_navegacion col">
+                    <ul>
+
+                        <li><a class="nav-item" href="../index.html#inicio">Inicio</a></li>
+                        <li><a class="nav-item" href="../index.html#portfolio">Proyectos</a></li>
+                        <li><a class="nav-item" href="#">Acerca de</a></li>
+                        <li><a class="nav-item" href="../index.html#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 | Sitio web realizado con HTML5 y CSS3</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Script JS-->
+    <script src="../assets/js/interacciones.js"></script>
+    <!-- Bootstrap JS Bundle (incluye Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

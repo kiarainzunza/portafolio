@@ -1,0 +1,115 @@
+// -------------------- Tipografía --------------------
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+// Tipografía general
+h1, h2, h3, h4, h5,
+p {
+  font-family: 'Sora', sans-serif;
+}
+
+// Texto del logo
+.logo {
+  font-family: 'Sora', sans-serif;
+  font-weight: bold;
+}
+
+// Texto contáctame
+.contact_title {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 0 0 20px 0;
+
+  @media (max-width: 573px) {
+    font-size: 2rem;
+  }
+}
+
+// -------------------- Menú --------------------
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  li {
+    padding: 0;
+    list-style: none;
+
+    a {
+      color: black;
+      font-family: 'Sora', sans-serif;
+      text-decoration: none;
+      padding: 0 10px;
+    }
+  }
+}
+
+// -------------------- Colores y fondo --------------------
+
+main {
+  background-color: #F9FBFC;
+}
+
+// -------------------- Iconos --------------------
+
+i {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+
+// Icono email
+.fa-envelope {
+  color: #0e76a8;
+
+  &:hover {
+    color: rgb(84, 84, 84);
+  }
+
+  &:active {
+    color: black;
+  }
+}
+
+// Icono LinkedIn
+.fa-linkedin-in {
+  color: #0e76a8;
+
+  &:hover {
+    color: rgb(84, 84, 84);
+  }
+
+  &:active {
+    color: black;
+  }
+}
+
+// Icono Behance
+.fa-behance {
+  color: #1769FF;
+
+  &:hover {
+    color: rgb(84, 84, 84);
+  }
+
+  &:active {
+    color: black;
+  }
+}
+
+// Icono Instagram
+.fa-instagram {
+  color: #FF0069;
+
+  &:hover {
+    color: rgb(84, 84, 84);
+  }
+
+  &:active {
+    color: black;
+  }
+}

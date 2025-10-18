@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--metadatos-->
+    <meta name="keywords" content="diseño grafico, diseño web, ux, ui, graphic design, portfolio">
+    <meta name="description" content="Portafolio de Kiara Inzunza, diseñadora UX/UI. Experiencia de usuario, diseño web responsivo y proyectos centrados en el usuario.">
+    <meta name="author" content="Kiara Inzunza">
+
+    <title>Kiara Inzunza | Portafolio</title>
+    <!--Favicon página-->
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css-sass/main.css">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/946b9e84bc.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS Bundle (incluye Popper) -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="container-fluid navbar navbar-expand-lg" id="navbar">
+        <!-- Lado izquierdo -->
+        <div class="nav-left">
+            <h3>Kiara Inzunza</h3>
+        </div>
+
+        <!-- Botón hamburguesa (visible solo en <576px) -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú colapsable -->
+        <div class="nav-right collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Inicio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#portfolio">
+                        Proyectos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="esp/conoceme.html">
+                        Acerca de
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">
+                        Contacto
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://www.behance.net/kiarainzunza">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="mailto:kiaraimdg@gmail.com">
+                        <i class="fa-solid fa-envelope nav-link"></i>
+                    </a>
+                </li>
+                <!--Selector de idiomas (rechazado)
+                <li class="nav-item language">
+                    <a class="active" href="#">Esp</a>
+                    <a class="inactive" href="eng/home.html">Eng</a>
+                </li>-->
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <main>
+        <!--Hero Portfolio-->
+
+        <section class="hero" id="inicio">
+            <div class="video-wrapper">
+                <video autoplay loop muted playsinline>
+                    <source src="assets/video/background-ondas.mp4" type="video/mp4">
+                </video>
+                <div class="hero-content">
+                    <h1>Hola! Soy Kiara Inzunza</h1>
+                    <h2>Diseñadora gráfica | UX UI</h2>
+                    <p>Diseño proyectos basándome en la legibilidad y simpicidad de navegación.</p>
+                </div>
+            </div>
+
+            <!--Botón de portafolio-->
+            <a href="#portfolio" class="hero_proyectos-background">
+                <p class="hero_proyectos-button">Ver proyectos</p>
+                <img class="arrow_down" src="assets/svg/icon_arrow.svg" alt="">
+            </a>
+        </section>
+        
+
+        <!-- Portfolio Section -->
+        <section class="portfolio">
+            <div class="row">
+                <!-- CV Information -->
+                <div class="col-12 col-md-3 mb-4 mb-md-0 cv-info">
+
+                    <div class="cv-info-profile">
+                        <!--Icono nuevo-->
+                        <div class="portfolio_icon-wrapper">
+                            <img class="portfolio_icon-perfil img-fluid default" src="assets/img/icon-perfil.png"
+                                alt="Caricatura de mi Foto de perfil">
+                            <img class="portfolio_icon-perfil img-fluid hover" src="assets/img/icon-perfil-real.png"
+                                alt="Foto de perfil real">
+                        </div>
+
+                        <h2>Kiara Inzunza</h2>
+                        <h3>Diseñadora Gráfica UX UI</h3>
+
+                        <!--Iconos cv-->
+                        <div class="portfolio_rrss">
+                            <a href="mailto:kiaraimdg@gmail.com" target="_blank"><i
+                                    class="fa-solid fa-envelope"></i></a>
+                            <a class="rrss-icon" href="https://www.linkedin.com/in/kiarainzunza/" target="_blank"> <i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.behance.net/kiarainzunza" target="_blank"> <i
+                                    class="fa-brands fa-behance"></i></a>
+                            <a href="https://www.instagram.com/kiarauxui/" target="_blank"> <i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div> <!--Estudios-->
+                        <h4>Estudios</h4>
+                        <!--Carrera-->
+                        <h5>Diseño gráfico</h5>
+                        <p>Mención Interfaces e interacciones</p>
+                        <P>Duoc UC Viña del mar </P>
+                        <p>Marzo 2020 - Diciembre 2023</p>
+                        <!--Diplomado-->
+                        <h5>Diplomado Desarrollo web</h5>
+                        <p>Duoc UC</p>
+                        <p>Marzo 2024 - Octubre 2024</p>
+                    </div>
+
+                    <hr>
+
+                    <div> <!--Trabajo-->
+                        <h4>Experiencia de trabajo</h4>
+                        <h5>Diseñador UX UI</h5>
+                        <p>Lado Norte - Viña del Mar, Chile</p>
+                        <h5>Diseñador gráfico</h5>
+                        <p>Pepe Pug - Viña del Mar, Chile</p>
+                    </div>
+
+                    <hr>
+
+                    <!-- Manejo de software-->
+                    <div class="portfolio_software">
+                        <h4>Dominio de software</h4>
+                        <ul class="portfolio_software-list">
+                            <li class="portfolio_software-list-button">Figma</li>
+                            <li class="portfolio_software-list-button">Illustrator</li>
+                            <li class="portfolio_software-list-button">Photoshop - básico</li>
+                            <li class="portfolio_software-list-button">After Effects - básico</li>
+                            <li class="portfolio_software-list-button">Indesign - básico</li>
+                            <li class="portfolio_software-list-button">Wordpress - básico</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bento Grid -->
+                <div class="col-12 col-md-9 bento-container" id="portfolio">
+                    <div class="custom-grid">
+
+                        <!--Card Valeriana Ecosalón-->
+                        <a href="esp/valeriana.html" class="item item-0">
+                            <div class="card">
+                                <div class="hover">
+                                    <p>Sitio web</p>
+                                    <h4>Valeriana Ecosalón</h4>
+                                </div>
+                                <img src="assets/img/portadas/valeriana-portada.png" alt="Computador rodeado de plantas mostrando el diseño del sitio web">
+                            </div>
+                        </a>
+
+                        <!--Card Huellas en el corazón-->
+                        <a href="esp/huellitas.html" class="item item-1">
+                            <div class="card">
+                                <div class="hover">
+                                    <p>Sitio web</p>
+                                    <h4>Huellas en el corazón</h4>
+                                </div>
+                                <img src="assets/img/portadas/huellitas-portada.png" alt="Diseño de sitio web mostrado en la pantalla de un computador con fondo rosado">
+                            </div>
+                        </a>
+
+                        <!--Card Instagram Ecostyle-->
+                        <a href="esp/ecostyle.html" class="item item-2">
+                            <div class="card">
+                                <div class="hover">
+                                    <p>Post redes sociales</p>
+                                    <h4>Ecostyle Appared</h4>
+                                </div>
+                                <img src="assets/img/portadas/ecostyle_portada.png" alt="Diseño de publicaciones para redes sociales en la pantalla de un celular, con posts flotando alrededor">
+                            </div>
+                        </a>
+
+                        <!--Card Tranqui-->
+                        <a href="esp/tranqui.html" class="item item-3">
+                            <div class="card">
+                                <div class="hover">
+                                    <p>Aplicación</p>
+                                    <h4>Tranqui</h4>
+                                </div>
+                                <img src="assets/img/portadas/tranqui-portada.png" alt="Diseño de aplicación mostrado en la pantalla de dos celulares con fondo morado">
+                            </div>
+                        </a>
+
+                        <!--Card Mistborn-->
+                        <a href="esp/mistborn.html" class="item item-5">
+                            <div class="card">
+                                <div class="hover">
+                                    <p>UI HUD</p>
+                                    <h4>Mistborn Videogame</h4>
+                                </div>
+                                <img src="assets/img/portadas/mistborn_mockup-portada.png" alt="Diseño de pantalla de inicio de un videojuego en una tablet">
+                            </div>
+                        </a>
+
+                        <!--Card Fortuita Pastelería-->
+                        <a href="esp/fortuita.html" class="item item-6">
+                            <div class="card">
+                                <div class="hover">
+                                    <p>Logotipo</p>
+                                    <h4>Fortuita Pastelería</h4>
+                                </div>
+                                <img src="assets/img/portadas/fortuita-portada.png" alt="Diseño de un logotipo para una pastelería en un papel texturizado">
+                            </div>
+                        </a>
+
+                        <!--Motion graphics-->
+                        <a href="esp/reels.html" class="item item-4">
+                            <div class="card">
+                                <div class="hover">
+                                    <p>Motion Graphics</p>
+                                    <h4>Reels promocionales</h4>
+                                </div>
+                                <img src="assets/img/portadas/reel_portada.png" alt="Diseño de 2 reels de redes sociales en celulares flotando uno sobre otro">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Termino de grid-->
+            </div> <!--Row-->
+        </section>
+
+
+        <!--Contacto-->
+        <section class="contact container" id="contact">
+            <h2 class="contact_title">Contáctame</h2>
+            <div class="row">
+                <!-- Columna de contacto -->
+                <div class="col contact_datos">
+                    <div class="contact_wrapper">
+                        <!-- Correo y ubicación -->
+                        <div class="contact_info-group">
+                            <a href="mailto:kiaraimdg@gmail.com" target="_blank" class="contact_info">
+                                <img src="assets/svg/icon_email.svg" alt="">
+                                <div class="contact_info-text">
+                                    <h3>Correo electrónico</h3>
+                                    <p class="download_content-p">kiaraimdg@gmail.com</p>
+                                </div>
+                            </a>
+                            <a href="https://maps.app.goo.gl/wygXXRG6jMZ9sdSK9" target="_blank" class="contact_info">
+                                <img src="assets/svg/icon_location.svg" alt="">
+                                <div class="contact_info-text">
+                                    <h3>Ubicación</h3>
+                                    <p class="download_content-p">Quilpué, Chile</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <hr>
+
+                        <!-- Redes Sociales -->
+                        <div class="contact_rrss">
+                            <h3>Redes sociales</h3>
+
+                            <div class="contact_rrss-icons">
+                                <a href="https://www.linkedin.com/in/kiarainzunza/" target="_blank"> <i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://www.behance.net/kiarainzunza" target="_blank"> <i
+                                        class="fa-brands fa-behance"></i></a>
+                                <a href="https://www.instagram.com/kiarauxui/" target="_blank"> <i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.tiktok.com/@kiarauxui?lang=es" target="_blank"><i
+                                        class="fa-brands fa-tiktok"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna de descarga -->
+                <div class="col">
+                    <div class="downloads">
+                        <a href="assets/pdf/esp_cv_kiara-inzunza.pdf" target="_blank" class="download">
+                            <img class="download_icon" src="assets/svg/icon_cv.svg" alt="">
+                            <div class="download_content">
+                                <h3>Descargar curriculum</h3>
+                                <p class="download_content-p">CV con la información acerca de mi, estudios y experiencia
+                                    laboral.</p>
+                            </div>
+                            <img class="download_arrow" src="assets/svg/icon_arrow.svg" alt="">
+                        </a>
+
+                        <a href="assets/pdf/esp_portafolio_kiara-inzunza.pdf" target="_blank" class="download">
+                            <img class="download_icon" src="assets/svg/icon_portfolio.svg" alt="">
+                            <div class="download_content">
+                                <h3>Descargar Portafolio</h3>
+                                <p class="download_content-p">Resumen de los proyectos con link a su explicación
+                                    detallada.</p>
+                            </div>
+                            <img class="download_arrow" src="assets/svg/icon_arrow.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer"><!--da color-->
+        <div class="container"> <!--marca padding-->
+            <div class="row footer_row"> <!--fila-->
+                <div class="footer_logo col">
+                    <h4>Kiara Inzunza | Portafolio</h4>
+                </div>
+                <div class="footer_rrss col">
+                    <a href="mailto:kiaraimdg@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/kiarainzunza/" target="_blank"> <i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.behance.net/kiarainzunza" target="_blank"> <i
+                            class="fa-brands fa-behance"></i></a>
+                </div>
+                <div class="footer_navegacion col">
+                    <ul>
+                        <li><a class="nav-item" href="#inicio">Inicio</a></li>
+                        <li><a class="nav-item" href="#portfolio">Proyectos</a></li>
+                        <li><a class="nav-item" href="esp/conoceme.html">Acerca de</a></li>
+                        <li><a class="nav-item" href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 | Sitio web realizado con HTML5 y CSS3</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--Script JS-->
+    <script src="assets/js/interacciones.js"></script>
+</body>
+
+</html>
