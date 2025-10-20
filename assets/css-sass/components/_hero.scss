@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   height: 100vh;
 
@@ -34,6 +34,10 @@
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
+      overflow: hidden;
+      @media (max-width: 768px) {
+        left: 1rem;
+      }
 
       h1 {
         margin: 0;
@@ -41,7 +45,7 @@
         font-weight: bold;
 
         @media (max-width: 768px) {
-          font-size: 3rem;
+          font-size: 2rem;
         }
 
         @media (min-width: 2560px) {
@@ -55,7 +59,7 @@
         font-weight: normal;
 
         @media (max-width: 768px) {
-          font-size: 1.5rem;
+          font-size: 1rem;
         }
 
         @media (min-width: 2560px) {

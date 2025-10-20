@@ -305,7 +305,7 @@ nav .nav-right {
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   nav .nav-right {
-    max-width: 60%;
+    max-width: 70%;
   }
 }
 nav .nav-right ul {
@@ -340,6 +340,14 @@ nav .navbar-toggler {
   nav {
     flex-wrap: wrap;
     padding: 1rem;
+  }
+  nav .nav-left {
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav .name {
+    display: none;
   }
   nav .nav-right {
     position: relative;
@@ -392,7 +400,7 @@ nav .navbar-toggler {
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   height: 100vh;
 }
@@ -426,6 +434,12 @@ nav .navbar-toggler {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .hero .video-wrapper .hero-content {
+    left: 1rem;
+  }
 }
 .hero .video-wrapper .hero-content h1 {
   margin: 0;
@@ -434,7 +448,7 @@ nav .navbar-toggler {
 }
 @media (max-width: 768px) {
   .hero .video-wrapper .hero-content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 @media (min-width: 2560px) {
@@ -449,7 +463,7 @@ nav .navbar-toggler {
 }
 @media (max-width: 768px) {
   .hero .video-wrapper .hero-content h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 @media (min-width: 2560px) {
@@ -942,7 +956,14 @@ nav .navbar-toggler {
   flex-direction: column;
   align-items: flex-start;
 }
-@media (max-width: 992px) {
+@media (max-width: 500px) {
+  .ficha_proceso-tema {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+}
+@media (min-width: 510px) and (max-width: 980px) {
   .ficha_proceso-tema {
     flex-direction: row;
     align-items: center;

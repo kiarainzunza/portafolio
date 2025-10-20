@@ -31,7 +31,7 @@ nav {
     transition: all 0.3s ease;
 
     @media (min-width: 768px) and (max-width: 1024px) {
-      max-width: 60%;
+      max-width: 70%;
     }
 
     ul {
@@ -45,6 +45,7 @@ nav {
       padding: 0;
 
       li {
+
         a,
         i {
           text-decoration: none;
@@ -73,6 +74,16 @@ nav {
   @media (max-width: 992px) {
     flex-wrap: wrap;
     padding: 1rem;
+
+    .nav-left {
+      display: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .name {
+      display: none;
+    }
 
     .nav-right {
       position: relative;
@@ -111,7 +122,7 @@ nav {
 }
 
 //Cambio color de texto de fortuita
-.text_white{
+.text_white {
   color: white;
 }
 
@@ -119,6 +130,7 @@ nav {
 @media (min-width: 992px) {
   body.page-custom-navbar {
     nav#navbar {
+
       .nav-left h3,
       .nav-right ul li a,
       .nav-right ul li i {
@@ -128,6 +140,7 @@ nav {
 
       // Cuando se hace scroll, cambia el color a negro
       &.scrolled {
+
         .nav-left h3,
         .nav-right ul li a,
         .nav-right ul li i {
