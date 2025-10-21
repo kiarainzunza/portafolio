@@ -836,6 +836,14 @@ nav .navbar-toggler {
   display: flex;
   padding: 2rem 0 1rem 0;
 }
+.presentacion img {
+  padding: 0 0 1rem 0;
+}
+@media (max-width: 768px) {
+  .presentacion img {
+    padding: 0 0 2rem 0;
+  }
+}
 
 .pdf {
   padding: 0 0 2rem 0;
