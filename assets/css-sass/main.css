@@ -374,7 +374,7 @@ nav .navbar-toggler {
   align-items: center;
 }
 .language .active {
-  color: white;
+  color: white !important;
   background-color: black;
   border: 0;
   border-radius: 10px;
