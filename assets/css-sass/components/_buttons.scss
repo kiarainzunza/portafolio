@@ -162,6 +162,22 @@
   }
 }
 
+.download-beers {
+  background-color: #A68929;
+  box-shadow: 2px 2px 2px 2px #6d5a18;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+  border: 0;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #6d5a18;
+  }
+}
+
+
 //------------------- Contacto -------------------//
 
 .contact_info {

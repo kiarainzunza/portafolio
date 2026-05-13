@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--metadatos-->
+    <meta name="keywords" content="diseño grafico, diseño web, ux, ui, graphic design, portfolio">
+    <meta name="description"
+        content="Proyecto de diseño de HUD para un videojuego ficticio basado en el libro Mistborn de Brandon Sanderson.">
+    <meta name="author" content="Kiara Inzunza">
+
+    <title>Kiara Inzunza | Portfolio</title>
+    <!--Favicon página-->
+    <link rel="icon" href="../assets/img/favicon.png" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="../assets/css-sass/main.css">
+    <!--Fuente Sora-->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" media="print"
+        onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap">
+    </noscript>
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/946b9e84bc.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="page-custom-navbar">
+
+    <!-- Navbar -->
+    <nav class="container-fluid navbar navbar-expand-lg" id="navbar">
+        <!-- Lado izquierdo -->
+        <div class="nav-left">
+            <h3>Kiara Inzunza</h3>
+        </div>
+
+        <!-- Botón hamburguesa (visible solo en <576px) -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú colapsable -->
+        <div class="nav-right collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html#portfolio">
+                        Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About me
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html#contact">
+                        Contact
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://www.behance.net/kiarainzunza">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="mailto:kiaraimdg@gmail.com">
+                        <i class="fa-solid fa-envelope nav-link"></i>
+                    </a>
+                </li>
+                <li class="nav-item language">
+                    <a class="inactive" href="../esp/trend-beers.html">Esp</a>
+                    <a class="active" href="#">En</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!--hero-->
+        <div class="ficha_hero">
+            <div class="ficha_video">
+                <video autoplay muted playsinline>
+                    <source src="../assets/video/trend-beers_portada-interna.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <section class="container ficha_titulo">
+
+            <div aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Trend Beers</li>
+                </ol>
+            </div>
+
+            <h2 class="ficha_titulo-subtitulo">Website</h2>
+            <h1>Trend Beers</h1>
+            <p> This project was originally developed in 2023 during my time as a designer at the Lado Norte agency.
+                This conceptual redesign was carried out in 2026 on my own initiative to improve upon the original
+                proposal based on my current perspective.
+            </p>
+
+            <div class="ficha_titulo-rol">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <h3>Role</h3>
+                        <p>UI Designer</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <h3>Tools</h3>
+                        <ul class="ficha_titulo-lista">
+                            <li>Figma</li>
+                            <li>Illustrator</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <h3>Timeline</h3>
+                        <ul class="ficha_titulo-lista">
+                            <li>October 2023 [Original]</li>
+                            <li>May 2026 [Redesign]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+        </section>
+
+        <!--Desarrollo del proyecto-->
+        <section class="container ficha_proceso">
+
+            <!--Descripción-->
+            <div class="ficha_proceso">
+                <div class="row">
+                    <div class="col-lg-4 ficha_proceso-tema">
+                        <h2>Description</h2>
+                    </div>
+                    <div class="col-lg-8 ficha_proceso-contenido">
+                        <p>The main objective was to conceptualize and design the user interface (UI) for a new
+                            e-commerce site dedicated to the import and sale of premium Belgian beers (brands such as
+                            Straffe Hendrik, Brugse Zot, and Blanche De Bruges).
+                        </p>
+                        <p>The client was looking for a platform that balanced e-commerce functionality with a rich,
+                            immersive visual design.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Cierre descripción-->
+
+            <hr>
+
+            <!--Proceso de diseño-->
+            <div class="ficha_proceso">
+                <div class="row">
+                    <div class="col-lg-4 ficha_proceso-tema">
+                        <h2>Design Process</h1>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>For this project, the goal was to optimize the information hierarchy and enhance the visual
+                            appeal to reflect the exclusivity of the beers. The key changes were:</p>
+                    </div>
+                </div>
+
+                <!--Fotos Mapa-->
+                <div class="ficha_proceso-fotos">
+                    <div class="row">
+                        <a>
+                            <img src="../assets/img/trend_beers/graphical-references_eng.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Cierre Proceso de diseño-->
+
+            <hr>
+
+            <!--Referentes gráficos (Moodboard)-->
+            <div class="ficha_proceso">
+                <div class="row">
+                    <div class="col-lg-4 ficha_proceso-tema">
+                        <h2>Graphic references</h1>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>For the moodboard, I looked for websites with unique features that
+                            resonated with the brewery’s theme. The main focus was on finding dynamic, rather than
+                            static, layouts that presented information in a functional way while incorporating
+                            distinctive visual elements.</p>
+                        <p> Although the initial concept explored colors like red and yellow on a gray background, I
+                            ultimately decided to shift the aesthetic toward a dark, formal tone. This decision allows
+                            the design to complement the product photography of the beers, highlighting their quality
+                            and maintaining a consistent visual identity.</p>
+                    </div>
+                </div>
+
+                <!--Fotos moodboard-->
+                <div class="carrusel">
+                    <div class="row">
+                        <a href="../assets/img/trend_beers/moodboard-inicio_trend-beers.png" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="carrusel_foto col-lg-6 col-md-6 col-sm-12">
+                            <img src="../assets/img/trend_beers/moodboard-inicio_trend-beers.png" class="img-fluid"
+                                alt="Moodboard inicio">
+                        </a>
+                        <a href="../assets/img/trend_beers/moodboard-productos_trend-beers.png" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="carrusel_foto col-lg-6 col-md-6 col-sm-12">
+                            <img src="../assets/img/trend_beers/moodboard-productos_trend-beers.png" class="img-fluid"
+                                alt="Moodboard ficha.">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!--Cierre Proceso de diseño-->
+
+            <hr>
+
+            <!--Mapa navegacion-->
+            <div class="ficha_proceso">
+                <div class="row">
+                    <div class="col-lg-4 ficha_proceso-tema">
+                        <h2>Navigation Map</h1>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>Before focusing on the design, I created a navigation map to guide me through the pages that
+                            would make up the entire website.</p>
+                    </div>
+                </div>
+
+                <!--Fotos Mapa-->
+                <div class="ficha_proceso-fotos">
+                    <div class="row">
+                        <a href="../assets/img/trend_beers/navigation-map_trend-beers.png" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="col-sm-12">
+                            <img src="../assets/img/trend_beers/navigation-map_trend-beers.png" class="img-fluid"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Cierre Mapa navegacion-->
+
+
+            <hr>
+
+            <!--Guia de estilo-->
+            <div class="ficha_proceso wireframe">
+                <div class="row">
+                    <div class="col-lg-4 ficha_proceso-tema">
+                        <h2>Guia de estilo</h2>
+                        <a class="download-beers"
+                                href="https://www.figma.com/design/nBGnEOSbAnMRiF1z3kysTj/Trend-Beers?node-id=315-895&p=f&t=RwcZwR01JpHb5i3p-0"
+                                target="_blank">See Design system in Figma</a>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>To ensure consistency and facilitate the scalability of the project, I developed a design
+                            system that includes a color palette optimized for dark environments, a clear typographic
+                            hierarchy, and modular components.
+                        </p>
+                    </div>
+                </div>
+
+                <!--Carrusel de fotos-->
+                <div class="carrusel">
+                    <div class="row">
+                        <!--Menu-->
+                        <a href="../assets/img/trend_beers/color_palette_trend-beers.png" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="carrusel_foto col-lg-4 col-md-4 col-sm-6">
+                            <img src="../assets/img/trend_beers/color_palette_trend-beers.png" class="img-fluid"
+                                alt="Boceto de la pantalla de título.">
+                        </a>
+                        <!--Main Menu-->
+                        <a href="../assets/img/trend_beers/typography_trend-beers.png" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="carrusel_foto col-lg-4 col-md-4 col-sm-6">
+                            <img src="../assets/img/trend_beers/typography_trend-beers.png" class="img-fluid"
+                                alt="Boceto de la pantalla de inicio principal.">
+                        </a>
+                        <!--Main Menu-->
+                        <a href="../assets/img/trend_beers/spacing_trend-beers-eng.png" data-toggle="lightbox"
+                            data-gallery="example-gallery" class="carrusel_foto col-lg-4 col-md-4 col-sm-6">
+                            <img src="../assets/img/trend_beers/spacing_trend-beers-eng.png" class="img-fluid"
+                                alt="Boceto de la pantalla de inicio principal.">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Cierre guia de estilo-->
+
+            <hr>
+
+            <!--Wireframe-->
+            <div class="ficha_proceso">
+                <div class="row">
+                    <!--Info titulo + boton-->
+                    <div class="col-lg-4 ficha_proceso-tema">
+                        <h2>Wireframes</h2>
+                        <a class="download-beers"
+                            href="https://www.figma.com/design/nBGnEOSbAnMRiF1z3kysTj/Trend-Beers?node-id=0-1&t=PAnHfRM1dCwgf6fM-1"
+                            target="_blank">See Mockups in Figma</a>
+                    </div>
+                    <!--Descripcion-->
+                    <div class="col-lg-8">
+                        <p>Before starting the mockup, I designed a sketch of the 5 most important screens within the
+                            navigation, to then define them correctly in a mockup by integrating the graphic codes
+                            defined in the design system.
+                        </p>
+                    </div>
+                </div>
+
+                <!--Carrusel de fotos-->
+                <div class="carrusel">
+                    <div class="row">
+
+                        <img src="../assets/img/trend_beers/wireframes_trend-beers.png" class="img-fluid" alt="">
+
+                    </div>
+                </div>
+
+
+                <hr>
+
+                <!--Nuevo nuevo mockup-->
+                <div class="ficha_proceso">
+                    <div class="row">
+                        <!--Info titulo + boton-->
+                        <div class="col-lg-4 ficha_proceso-tema">
+                            <h2>Mockups</h2>
+                            <a class="download-beers"
+                                href="https://www.figma.com/design/nBGnEOSbAnMRiF1z3kysTj/Trend-Beers?node-id=30-960&p=f&t=RwcZwR01JpHb5i3p-0"
+                                target="_blank">See Mockups in Figma</a>
+                        </div>
+                        <!--Descripcion-->
+                        <div class="col-lg-8">
+                            <p>I created the components of each page, reusing them and assembling each page based on the
+                                graphic codes defined in the design system.</p>
+                        </div>
+                    </div>
+
+                    <!--Carrusel de fotos-->
+                    <div class="carrusel">
+                        <div class="row">
+                            <!--Inicio-->
+                            <a href="../assets/img/trend_beers/mockup-inicio_trend-beers.png" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-4 col-sm-6">
+                                <img src="../assets/img/trend_beers/mockup-inicio_trend-beers.png" class="img-fluid"
+                                    alt="Pantalla de titulo">
+                            </a>
+                            <!--Productos-->
+                            <a href="../assets/img/trend_beers/mockup-productos_trend-beers.png" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-4 col-sm-6">
+                                <img src="../assets/img/trend_beers/mockup-productos_trend-beers.png" class="img-fluid"
+                                    alt="Pantalla de inicio, con las opciones de continuar, cargar juego, nuevo juego y opciones.">
+                            </a>
+                            <!--Ficha de productos-->
+                            <a href="../assets/img/trend_beers/mockup-ficha-producto_trend-beers.png"
+                                data-toggle="lightbox" data-gallery="example-gallery"
+                                class="carrusel_foto col-lg-3 col-md-4 col-sm-6">
+                                <img src="../assets/img/trend_beers/mockup-ficha-producto_trend-beers.png"
+                                    class="img-fluid" alt="Pantalla de seleccion de dificultad.">
+                            </a>
+                            <!--Contacto-->
+                            <a href="../assets/img/trend_beers/mockup-contacto_trend-beers.png" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-4 col-sm-6">
+                                <img src="../assets/img/trend_beers/mockup-contacto_trend-beers.png" class="img-fluid"
+                                    alt="Pantalla de cargar partida.">
+                            </a>
+                            <!--Straffe Hendrik-->
+                            <a href="../assets/img/trend_beers/mockup-marca_straffe-trend-beers.png"
+                                data-toggle="lightbox" data-gallery="example-gallery"
+                                class="carrusel_foto col-lg-3 col-md-4 col-sm-6">
+                                <img src="../assets/img/trend_beers/mockup-marca_straffe-trend-beers.png"
+                                    class="img-fluid" alt="Pantalla de cargando.">
+                            </a>
+                            <!--brugse Zot-->
+                            <a href="../assets/img/trend_beers/mockup-marca_brugse-trend-beers.png"
+                                data-toggle="lightbox" data-gallery="example-gallery"
+                                class="carrusel_foto col-lg-3 col-md-4 col-sm-6">
+                                <img src="../assets/img/trend_beers/mockup-marca_brugse-trend-beers.png"
+                                    class="img-fluid" alt="Pantalla de cargando.">
+                            </a>
+                            <!--Sport Zot-->
+                            <a href="../assets/img/trend_beers/mockup-marca_sport-trend-beers.png"
+                                data-toggle="lightbox" data-gallery="example-gallery"
+                                class="carrusel_foto col-lg-3 col-md-4 col-sm-6">
+                                <img src="../assets/img/trend_beers/mockup-marca_sport-trend-beers.png"
+                                    class="img-fluid" alt="Pantalla de cargando.">
+                            </a>
+                            <!--Blanche de bruges-->
+                            <a href="../assets/img/trend_beers/mockup-marca_Blanche-trend-beers.png"
+                                data-toggle="lightbox" data-gallery="example-gallery"
+                                class="carrusel_foto col-lg-3 col-md-4 col-sm-6">
+                                <img src="../assets/img/trend_beers/mockup-marca_Blanche-trend-beers.png"
+                                    class="img-fluid" alt="Pantalla de cargando.">
+                            </a>
+                            <!--Carrito-->
+                            <a href="../assets/img/trend_beers/mockup-carrito_trend-beers.png" data-toggle="lightbox"
+                                data-gallery="example-gallery" class="carrusel_foto col-lg-3 col-md-4 col-sm-6">
+                                <img src="../assets/img/trend_beers/mockup-carrito_trend-beers.png" class="img-fluid"
+                                    alt="Pantalla de cargando.">
+                            </a>
+                            <!--Proceso de pago-->
+                            <a href="../assets/img/trend_beers/mockup-proceso-pago_trend-beers.png"
+                                data-toggle="lightbox" data-gallery="example-gallery"
+                                class="carrusel_foto col-lg-3 col-md-4 col-sm-6">
+                                <img src="../assets/img/trend_beers/mockup-proceso-pago_trend-beers.png"
+                                    class="img-fluid" alt="Pantalla de cargando.">
+                            </a>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <!--Prototipo interactivo-->
+                    <div class="prototype container">
+                        <iframe loading="lazy" class="prototype-style" style="border: 1px solid rgba(0, 0, 0, 0.1);"
+                            src="https://embed.figma.com/design/nBGnEOSbAnMRiF1z3kysTj/Trend-Beers?node-id=315-896&embed-host=share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <hr>
+
+                    <!--Ver proyectos anterior y siguiente-->
+                    <div class="container seleccion-proyecto py-4">
+                        <div>
+                            <img class="selector-proyecto_arrow" src="../assets/svg/chevron-left.svg" alt="">
+                            <a href="huellitas.html">Previous project</a>
+                        </div>
+
+                        <div>
+                            <a href="valeriana.html">Next project</a>
+                            <img class="selector-proyecto_arrow" src="../assets/svg/chevron-right.svg" alt="">
+                        </div>
+                    </div>
+
+        </section>
+
+
+        <!--Flecha hacia arriba-->
+        <div class="arrow-up">
+            <a href="#navbar"><img src="../assets/svg/arrow-up-short.svg" alt=""></a>
+        </div>
+
+    </main>
+
+    <!--Footer-->
+    <footer class="footer"><!--da color-->
+        <div class="container"> <!--marca padding-->
+            <div class="row footer_row"> <!--fila-->
+                <div class="footer_logo col">
+                    <h4>Kiara Inzunza | Portafolio</h4>
+                </div>
+                <div class="footer_rrss col">
+                    <a href="mailto:kiaraimdg@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/kiarainzunza/" target="_blank"> <i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.behance.net/kiarainzunza" target="_blank"> <i
+                            class="fa-brands fa-behance"></i></a>
+                </div>
+                <div class="footer_navegacion col">
+                    <ul>
+
+                        <li><a class="nav-item" href="../index.html#inicio">Inicio</a></li>
+                        <li><a class="nav-item" href="../index.html#portfolio">Proyectos</a></li>
+                        <li><a class="nav-item" href="../esp/conoceme.html">Acerca de</a></li>
+                        <li><a class="nav-item" href="../index.html#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 | Sitio web realizado con HTML5 y CSS3</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Script JS-->
+    <script src="../assets/js/interacciones.js" defer></script>
+    <!-- Bootstrap 5 JS (con Popper incluido) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Lightbox-->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
+</body>
+
+</html>
